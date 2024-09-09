@@ -9,8 +9,8 @@ import com.example.gmap.view.ui.screens.MapScreen
 
 @Composable
 fun MainScreenNavigation(navController: NavHostController) {
-
-    NavHost(navController = navController, startDestination = "home") {
+    //will change start destination when I will complete home screen
+    NavHost(navController = navController, startDestination = "map") {
         composable("home") {
             HomeScreen()
         }

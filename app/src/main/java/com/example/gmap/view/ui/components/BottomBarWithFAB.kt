@@ -51,7 +51,6 @@ fun BottomBarWithFAB() {
             }
         }
     ) {
-        Log.d("bugfind", it.toString())
         MainScreenNavigation(navController)
     }
 }

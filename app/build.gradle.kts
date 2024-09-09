@@ -60,6 +60,7 @@ dependencies {
     implementation(libs.androidx.lifecycle.runtime)
     implementation(libs.line.awesome.icons)
     implementation(libs.androidx.material3.android)
+    implementation(libs.play.services.location)
 
     /* Compose BOM */
     val composeBom = platform(libs.androidx.compose.bom)
